@@ -1,1 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700");
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.bg-custom {
+  background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #a1a1a1;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.fas {
+  padding-right: 5px;
+}
+
+.navbar-brand img {
+  width: 108px;
+  height: 67.5px;
+}
