@@ -5,6 +5,7 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+/*     Navigation bar customisation      */
 .navbar {
   height: 100px;
 }
@@ -26,4 +27,34 @@ body {
 .navbar-brand img {
   width: 108px;
   height: 67.5px;
+}
+
+/*  End  navigation bar customisation      */
+
+/*--------Footer---------------*/
+
+footer {
+  background-color: #000000;
+  min-height: 150px;
+  position: bottom;
+}
+
+.social-links li a i {
+  padding-top: 20px;
+  height: 40px;
+  weight: 40px;
+}
+
+.contact-custom {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #e95950;
 }
