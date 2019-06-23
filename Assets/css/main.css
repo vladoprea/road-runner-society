@@ -3,9 +3,14 @@
 body {
   background-color: #f1f1f1;
   font-family: "Nunito", sans-serif;
+  padding-top: 100px;
 }
 
-/*     Navigation bar customisation      */
+.row-bg {
+  background-color: #ffffff;
+}
+
+/*-------Navigation bar customisation---------*/
 .navbar {
   height: 100px;
 }
@@ -13,23 +18,76 @@ body {
 .bg-custom {
   background-color: #ffffff;
 }
+.navbar .nav-links-pos {
+  flex-direction: row;
+  align-self: flex-end;
+}
 
 .navbar-light .navbar-nav .nav-link {
   color: #a1a1a1;
   font-size: 1em;
   font-weight: 700;
+  transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
 }
 
+/* Navbar links hover  */
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000000;
+}
+/* End Navbar links hover  */
 .fas {
   padding-right: 5px;
 }
 
 .navbar-brand img {
-  width: 108px;
-  height: 67.5px;
+  width: 120px;
+  height: 75px;
 }
 
-/*  End  navigation bar customisation      */
+/*-------End  navigation bar customisation---------*/
+
+/*-------Main content customisation-------*/
+
+/*----------Image customisation------------*/
+.custom-img {
+  width: 100%;
+  height: 85%;
+  border-radius: 5px;
+}
+
+.text {
+  color: blue;
+  line-height: 1.6rem;
+}
+
+.custom-row {
+  padding: 70px 50px 0px;
+}
+
+.durusa-image {
+  width: 100%;
+}
+/*------------ End Image customisation--------------*/
+
+/*-------Headings----------*/
+h2 {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+h4,
+h5 {
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+/*-------End Headings--------*/
+/*-------End Main content customisation-------*/
 
 /*--------Footer---------------*/
 
@@ -41,20 +99,34 @@ footer {
 
 .social-links li a i {
   padding-top: 20px;
-  height: 40px;
-  weight: 40px;
+  font-size: 40px;
+}
+
+.social-links li a i:hover {
+  color: #ffffff;
 }
 
 .contact-custom {
   color: #ffffff;
-  margin: 0;
-  padding: 0;
+}
+
+.contact-custom-copyright {
+  color: #ffffff;
+  font-size: 10px;
 }
 
 .fa-facebook {
   color: #3b5998;
+  transition: color 1s ease-in-out;
+  -moz-transition: color 1s ease-in-out;
+  -webkit-transition: color 1s ease-in-out;
+  -o-transition: color 1s ease-in-out;
 }
 
 .fa-instagram {
   color: #e95950;
+  transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
 }
