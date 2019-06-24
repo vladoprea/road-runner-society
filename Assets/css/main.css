@@ -51,20 +51,20 @@ body {
 
 /*-------Main content customisation-------*/
 
-/*----------Image customisation------------*/
+/*    Image customisation   */
 .custom-img {
   width: 100%;
-  height: 85%;
   border-radius: 5px;
 }
+/*    End Image customisation   */
+
+/*  Text customisation inside main content */
 
 .text {
   line-height: 1.6rem;
 }
 
-.custom-row {
-  padding: 80px 50px 0px;
-}
+/* Center text on images*/
 .text-center {
   position: relative;
 }
@@ -75,11 +75,13 @@ body {
   left: 0;
   width: 100%;
 }
+/* End Center text on images*/
 
-.durusa-image {
-  width: 100%;
+/*  End Text customisation inside main content */
+
+.custom-row {
+  padding: 80px 50px 80px;
 }
-/*------------ End Image customisation--------------*/
 
 /*-------Headings----------*/
 h2 {
