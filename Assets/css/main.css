@@ -59,12 +59,21 @@ body {
 }
 
 .text {
-  color: blue;
   line-height: 1.6rem;
 }
 
 .custom-row {
-  padding: 70px 50px 0px;
+  padding: 80px 50px 0px;
+}
+.text-center {
+  position: relative;
+}
+
+.heading-center {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
 }
 
 .durusa-image {
@@ -77,16 +86,27 @@ h2 {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: 700;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 h4,
 h5 {
   font-weight: 600;
-  margin-top: 5px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 /*-------End Headings--------*/
+
+/*---------Media for small devices removing margins and paddings-----*/
+@media (max-width: 576px) {
+  .custom-row {
+    padding: 0px;
+  }
+
+  .text-center {
+    padding: 0px 0px 5px;
+  }
+}
+
 /*-------End Main content customisation-------*/
 
 /*--------Footer---------------*/
