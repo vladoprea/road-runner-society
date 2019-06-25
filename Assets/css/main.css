@@ -11,9 +11,6 @@ body {
 }
 
 /*-------Navigation bar customisation---------*/
-.navbar {
-  height: 100px;
-}
 
 .bg-custom {
   background-color: #ffffff;
@@ -52,7 +49,7 @@ body {
 /*-------Main content customisation-------*/
 
 /*    Image customisation   */
-.custom-img {
+.img-custom {
   width: 100%;
   border-radius: 5px;
 }
@@ -77,11 +74,43 @@ body {
 }
 /* End Center text on images*/
 
-/*  End Text customisation inside main content */
+/* Project status with progress bar*/
 
-.custom-row {
+.progress {
+  position: relative;
+  height: 25px;
+  margin-bottom: 4px;
+  background-color: #a9a9a9;
+}
+
+.progress-type {
+  position: absolute;
+  left: 0px;
+  font-weight: 500;
+  padding: 3px 30px 2px 10px;
+  color: #ffffff;
+}
+
+/*Volunteer button custom*/
+.btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* End Project status with progress bar*/
+
+.row-custom {
   padding: 80px 50px 80px;
 }
+.row-custom-project {
+  padding-bottom: 80px;
+  padding-left: 50px;
+}
+.row-custom-status {
+  padding-left: 50px;
+  margin-bottom: 5px;
+}
+
+/*  End Text customisation inside main content */
 
 /*-------Headings----------*/
 h2 {
@@ -96,18 +125,33 @@ h5 {
   font-weight: 600;
   margin-bottom: 0px;
 }
+
+.album-heading {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
 /*-------End Headings--------*/
 
 /*---------Media for small devices removing margins and paddings-----*/
 @media (max-width: 576px) {
-  .custom-row {
+  .row-custom {
     padding: 0px;
   }
 
+  .row-custom-project {
+    padding: 0px;
+  }
+  .row-custom-status {
+    padding: 0px;
+  }
   .text-center {
     padding: 0px 0px 5px;
   }
 }
+
+/* Carousel customisation for small and big devices-put it in container */
 
 /*-------End Main content customisation-------*/
 
@@ -135,6 +179,7 @@ footer {
 .contact-custom-copyright {
   color: #ffffff;
   font-size: 10px;
+  margin-top: 40px;
 }
 
 .fa-facebook {
