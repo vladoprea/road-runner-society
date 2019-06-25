@@ -6,11 +6,10 @@ body {
   padding-top: 100px;
 }
 
+/*-------Navigation bar customisation---------*/
 .row-bg {
   background-color: #ffffff;
 }
-
-/*-------Navigation bar customisation---------*/
 
 .bg-custom {
   background-color: #ffffff;
@@ -91,12 +90,6 @@ body {
   color: #ffffff;
 }
 
-/*Volunteer button custom*/
-.btn-info {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 /* End Project status with progress bar*/
 
 .row-custom {
@@ -111,7 +104,23 @@ body {
   padding-bottom: 5px;
 }
 
-/*  End Text customisation inside main content */
+/*Volunteer button custom*/
+.btn-info {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*    Buttons    */
+
+.btn-info {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
+
+.btn-danger {
+  border-radius: 25px;
+}
+/*  End Text customisation */
 
 /*-------Headings----------*/
 h2 {
@@ -134,25 +143,6 @@ h5 {
 }
 
 /*-------End Headings--------*/
-
-/*---------Media for small devices removing margins and paddings-----*/
-@media (max-width: 576px) {
-  .row-custom {
-    padding: 0px;
-  }
-
-  .row-custom-project {
-    padding: 0px;
-  }
-  .row-custom-status {
-    padding: 0px;
-  }
-  .text-center {
-    padding: 0px 0px 5px;
-  }
-}
-
-/* Carousel customisation for small and big devices-put it in container */
 
 /*-------End Main content customisation-------*/
 
@@ -197,4 +187,23 @@ footer {
   -moz-transition: color 1s ease-out;
   -webkit-transition: color 1s ease-out;
   -o-transition: color 1s ease-out;
+}
+
+/*---------End Footer---------*/
+
+/*---------Media for small devices removing margins and paddings-----*/
+@media (max-width: 576px) {
+  .row-custom {
+    padding: 0px;
+  }
+
+  .row-custom-project {
+    padding: 0px;
+  }
+  .row-custom-status {
+    padding: 0px;
+  }
+  .text-center {
+    padding: 0px 0px 5px;
+  }
 }
