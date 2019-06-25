@@ -86,7 +86,7 @@ body {
 .progress-type {
   position: absolute;
   left: 0px;
-  font-weight: 500;
+  font-weight: 500px;
   padding: 3px 30px 2px 10px;
   color: #ffffff;
 }
