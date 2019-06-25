@@ -92,10 +92,11 @@ body {
 }
 
 /*Volunteer button custom*/
-.btn {
+.btn-info {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
 /* End Project status with progress bar*/
 
 .row-custom {
@@ -107,7 +108,7 @@ body {
 }
 .row-custom-status {
   padding-left: 50px;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 /*  End Text customisation inside main content */
