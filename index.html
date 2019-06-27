@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse nav-links-pos" id="navbarMenu">
         <ul class="navbar-nav ml-auto align-content-end">
           <li class="navbar-item px-2">
-            <a href="index.html" class="nav-link"
+            <a href="index.html" class="nav-link current"
               ><i class="fas fa-home"></i>HOME</a
             >
           </li>
@@ -71,18 +71,15 @@
 
     <!----Main content of the page-->
     <main>
-      <!----About section---->
+      <!----About RRS section---->
       <section class="container-fluid">
         <div class="row row-custom ">
-          <div class="col-md-6 text-center">
-            <img
-              src="assets/images/cover_rrs.jpg"
-              alt="Road Runner Society"
-              class="img-custom"
-            />
-            <div class="heading-center">
+          <div class="col-md-6 col-small">
+            <!--Setting up a div with a background image and a centered heading-->
+            <div class="image-container-rrs">
               <h2>Road Runner Society</h2>
             </div>
+            <!--End div with background image-->
           </div>
           <div class="col-md-6 text">
             <h4>Road Runner Society</h4>
@@ -108,15 +105,13 @@
           </div>
         </div>
         <div class="row row-custom row-bg">
-          <div class="col-md-6 order-md-2 text-center">
-            <img
-              src="assets/images/cover_durusa.jpg"
-              alt="We love Durusa"
-              class="img-custom"
-            />
-            <div class="heading-center">
+          <!--Columns changing position in medium and bigger screen sizes-->
+          <div class="col-md-6 order-md-2 col-small">
+            <!--Setting up a div with a background image and a centered heading-->
+            <div class="image-container-durusa">
               <h2>We love Durusa</h2>
             </div>
+            <!--End div with background image-->
           </div>
           <div class="col-md-6 order-md-1 text">
             <h4>The Village</h4>
@@ -153,7 +148,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col">
+          <div class="col col-small">
             <div
               id="durusaCarousel"
               class="carousel slide"
@@ -191,6 +186,7 @@
                 <li data-target="#durusaCarousel" data-slide-to="24"></li>
                 <li data-target="#durusaCarousel" data-slide-to="25"></li>
               </ol>
+              <!--Adding a CSS class to images to keep a fixed sized for them in the album-->
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
