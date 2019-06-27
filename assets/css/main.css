@@ -33,14 +33,16 @@ body {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #000000;
 }
-/* End Navbar links hover  */
-.fas {
-  padding-right: 5px;
-}
 
 .navbar-brand img {
   width: 120px;
   height: 75px;
+}
+
+/* End Navbar links hover  */
+
+.fas {
+  padding-right: 5px;
 }
 
 /*-------End  navigation bar customisation---------*/
@@ -80,7 +82,31 @@ body {
 
 /* End text customisation  */
 
-/* Project status with progress bar*/
+/*   Carousel media breakpoints because of different sizes of the images */
+
+.carousel-custom {
+  max-height: 500px;
+}
+
+.carousel-container {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .carousel-custom {
+    max-height: 400px;
+  }
+}
+
+@media (max-width: 568px) {
+  .carousel-custom {
+    max-height: 210px;
+  }
+}
+
+/* End Carousel customisation*/
+
+/* Project status with progress bar - text inside the bars*/
 
 .progress {
   position: relative;
@@ -111,12 +137,11 @@ body {
   padding-bottom: 5px;
 }
 
-/*Volunteer button custom*/
+/*    Buttons    */
 .btn-info {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/*    Buttons    */
 
 .btn-info {
   margin-top: 15px;
@@ -127,7 +152,9 @@ body {
 .btn-danger {
   border-radius: 25px;
 }
-/* Form custom*/
+
+/*     End buttons    */
+/*   Form customisation   */
 .form-custom {
   margin-bottom: 50px;
   background-color: #b7b7b7;
@@ -137,7 +164,8 @@ body {
 .form-button {
   margin-bottom: 15px;
 }
-/*  End Text customisation */
+
+/*   Form customisation   */
 
 /*-------Headings----------*/
 h2 {
