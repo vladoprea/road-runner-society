@@ -121,17 +121,26 @@ body {
   height: 450px;
 }
 
-.img-custom-map {
-  border-radius: 0px;
+.image-container-map {
+  background: url("../images/map_durusa.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
   border-style: solid;
   border-width: 3px;
 }
+
 /*  End Image customisation */
 
 /*  Text customisation */
 
 .text {
   line-height: 1.6rem;
+}
+
+.contact-center {
+  text-align: center;
 }
 
 /* End text customisation  */
@@ -224,19 +233,20 @@ body {
   border-radius: 25px;
 }
 
-/*     End buttons    */
-/*   Form customisation   */
-.form-custom {
-  margin-bottom: 50px;
-  background-color: #b7b7b7;
-  border-radius: 0.5rem;
-}
-
 .form-button {
   margin-bottom: 15px;
 }
 
+/*     End buttons    */
+
 /*   Form customisation   */
+.form-custom {
+  margin-bottom: 50px;
+  background-color: #b1b1b1;
+  border-radius: 0.2rem;
+}
+
+/*  End Form customisation   */
 
 /*-------Headings----------*/
 h2 {
@@ -330,6 +340,11 @@ footer {
 @media (max-width: 767px) {
   .row-custom {
     padding: 0px;
+  }
+
+  .row-form {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .col-small {
