@@ -52,7 +52,28 @@ body {
 
 /*-------Main content customisation-------*/
 
-/*    Image set as background and heading centered  */
+/*  Rows and cols margins and paddings  */
+
+.row-custom {
+  padding: 80px 50px 80px;
+}
+.row-custom-project {
+  padding-bottom: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.row-custom-status {
+  padding-left: 50px;
+  padding-bottom: 5px;
+}
+
+.cyclo-status-heading {
+  margin-right: 27px;
+}
+
+/*  Rows and cols margins and paddings  */
+
+/*    Images set as background and heading centered  */
 .image-container-rrs {
   background: url("../images/cover_rrs.jpg");
   background-position: center;
@@ -205,18 +226,6 @@ body {
 
 /* End Project status with progress bar*/
 
-.row-custom {
-  padding: 80px 50px 80px;
-}
-.row-custom-project {
-  padding-bottom: 80px;
-  padding-left: 50px;
-}
-.row-custom-status {
-  padding-left: 50px;
-  padding-bottom: 5px;
-}
-
 /*    Buttons    */
 .btn-info {
   margin-top: 15px;
@@ -287,11 +296,17 @@ h5 {
   height: 100%;
 }
 
-/*-----End Video responsive to all screen sizes------*/
+@media (max-width: 767px) {
+  .iframe-container {
+    padding-bottom: 56.25%;
+  }
+}
+
+/*   End Video responsive */
 
 /*-------End Main content customisation-------*/
 
-/*--------Footer---------------*/
+/*--------Footer--------*/
 
 footer {
   background-color: #000000;
@@ -359,11 +374,5 @@ footer {
   }
   .text-center {
     padding: 0px 0px 5px;
-  }
-}
-
-@media (max-width: 767px) {
-  .iframe-container {
-    padding-bottom: 56.25%;
   }
 }
