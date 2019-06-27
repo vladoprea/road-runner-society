@@ -219,7 +219,7 @@ body {
 .progress-type {
   position: absolute;
   left: 0px;
-  font-weight: 400px;
+  font-weight: 400;
   padding: 3px 30px 2px 10px;
   color: #ffffff;
 }
@@ -311,7 +311,6 @@ h5 {
 footer {
   background-color: #000000;
   min-height: 150px;
-  position: bottom;
 }
 
 .social-links li a i {
