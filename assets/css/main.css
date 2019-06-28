@@ -6,6 +6,11 @@ body {
   padding-top: 100px;
 }
 
+.row .container .container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
 /*-------Navigation bar customisation---------*/
 .row-bg {
   background-color: #ffffff;
@@ -75,7 +80,7 @@ body {
 
 /*    Images set as background and heading centered  */
 .image-container-rrs {
-  background: url("../images/cover_rrs.jpg");
+  background: url("../images/cover-rrs.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -87,7 +92,7 @@ body {
 }
 
 .image-container-durusa {
-  background: url("../images/cover_durusa.jpg");
+  background: url("../images/cover-durusa.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,7 +104,7 @@ body {
 }
 
 .image-container-hambar {
-  background: url("../images/cover_hambar.jpg");
+  background: url("../images/cover-hambar.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,7 +116,7 @@ body {
 }
 
 .image-container-cyclo {
-  background: url("../images/cover_cyclo.jpg");
+  background: url("../images/cover-cyclo.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -123,7 +128,7 @@ body {
 }
 
 .image-container-campus {
-  background: url("../images/cover_campus.jpg");
+  background: url("../images/cover-campus.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -135,7 +140,7 @@ body {
 }
 
 .image-container-summerhills {
-  background: url("../images/cover_summerhills.jpg");
+  background: url("../images/cover-summerhills.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -143,7 +148,7 @@ body {
 }
 
 .image-container-map {
-  background: url("../images/map_durusa.jpg");
+  background: url("../images/map-durusa.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -240,6 +245,7 @@ body {
 
 .btn-danger {
   border-radius: 25px;
+  margin-bottom: 20px;
 }
 
 .form-button {
@@ -280,29 +286,6 @@ h5 {
 }
 
 /*-------End Headings--------*/
-
-/*-----Video responsive to all screen sizes------*/
-.iframe-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 30%;
-  height: 0;
-}
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-@media (max-width: 767px) {
-  .iframe-container {
-    padding-bottom: 56.25%;
-  }
-}
-
-/*   End Video responsive */
 
 /*-------End Main content customisation-------*/
 
