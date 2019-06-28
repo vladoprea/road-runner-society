@@ -16,7 +16,7 @@
     <title>Road Runner Society/Projects</title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   </head>
-  
+
   <body>
     <!--Navigation bar-->
     <nav class="navbar navbar-expand-sm navbar-light bg-custom fixed-top">
@@ -67,18 +67,18 @@
     </nav>
     <!--End Navigation bar-->
 
-    <!---Main Content of the page-->
+    <!--Main Content of the page-->
     <main>
       <section class="container-fluid">
         <!--Project Hambar-->
         <div class="row row-custom ">
-            <div class="col-md-6 col-small">
-                <!--Setting up a div with a background image and a centered heading-->
-                <div class="image-container-hambar">
-                  <h2>H /\ /\/\ B /\ R</h2>
-                </div>
-                <!--End div with background image-->
+          <div class="col-md-6 col-small">
+            <!--Setting up a div with a background image and a centered heading-->
+            <div class="image-container-hambar">
+              <h2>H /\ /\/\ B /\ R</h2>
             </div>
+            <!--End div with background image-->
+          </div>
           <div class="col-md-6 text">
             <h4>H /\ /\/\ B /\ R</h4>
             <p>
@@ -166,20 +166,27 @@
           </div>
           <!--Button that opens modal-->
           <div class="col-md-6 align-self-center text-center">
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#projectVolunteer"><strong>Volunteer</strong></button>
+            <button
+              type="button"
+              class="btn btn-info btn-lg"
+              data-toggle="modal"
+              data-target="#projectVolunteer"
+            >
+              <strong>Volunteer</strong>
+            </button>
           </div>
           <!-- End Button that opens modal-->
         </div>
       </section>
-      <section>
+      <section class="container-fluid">
         <div class="row row-custom row-bg">
-            <div class="col-md-6 order-md-2 col-small">
-                <!--Setting up a div with a background image and a centered heading-->
-                <div class="image-container-cyclo">
-                  <h2>Cycloturistic Paths</h2>
-                </div>
-                <!--End div with background image-->
+          <div class="col-md-6 order-md-2 col-small">
+            <!--Setting up a div with a background image and a centered heading-->
+            <div class="image-container-cyclo">
+              <h2>Cycloturistic Paths</h2>
             </div>
+            <!--End div with background image-->
+          </div>
           <div class="col-md-6 order-md-1 text">
             <h4>Cycloturistic Pathways</h4>
             <p>
@@ -262,20 +269,27 @@
           </div>
           <!--Button that opens modal-->
           <div class="col-md-6 order-md-1 align-self-center text-center">
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#projectVolunteer"><strong>Volunteer</strong></button>
+            <button
+              type="button"
+              class="btn btn-info btn-lg"
+              data-toggle="modal"
+              data-target="#projectVolunteer"
+            >
+              <strong>Volunteer</strong>
+            </button>
           </div>
           <!--End Button that opens modal-->
         </div>
       </section>
-      <section>
+      <section class="container-fluid">
         <div class="row row-custom">
-            <div class="col-md-6 col-small">
-                <!--Setting up a div with a background image and a centered heading-->
-                <div class="image-container-campus">
-                  <h2>Creative Campus</h2>
-                </div>
-                <!--End div with background image-->
+          <div class="col-md-6 col-small">
+            <!--Setting up a div with a background image and a centered heading-->
+            <div class="image-container-campus">
+              <h2>Creative Campus</h2>
             </div>
+            <!--End div with background image-->
+          </div>
           <div class="col-md-6 text">
             <h4>Creative Campus</h4>
             <p>
@@ -356,7 +370,14 @@
           </div>
           <!--Button that opens modal-->
           <div class="col-md-6 align-self-center text-center">
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#projectVolunteer"><strong>Volunteer</strong></button>
+            <button
+              type="button"
+              class="btn btn-info btn-lg"
+              data-toggle="modal"
+              data-target="#projectVolunteer"
+            >
+              <strong>Volunteer</strong>
+            </button>
           </div>
           <!--End Button that opens modal-->
         </div>
@@ -364,90 +385,95 @@
 
       <!--Modal for Volunteer button-->
 
-  <div id="projectVolunteer" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-     <!-- Modal content with a form inside-->
-    <div class="modal-content">
-      <div class="modal-header">
-         <h4 class="modal-title">Become a Volunteer</h4>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-      </div>
-      <div class="modal-body">
-        <form action="" class="main-form py-3 px-2">
-          <div class="form-group">
-            <label for="fullname"><strong>Full Name</strong></label>
-            <input
-              type="text"
-              name="fullname"
-              id="fullname"
-              class="form-control"
-              placeholder="Full Name"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="phonenumber"><strong>Phone number</strong></label>
-            <input
-              type="number"
-              name="phonenumber"
-              id="phonenumber"
-              class="form-control"
-              placeholder="Phone number"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="email"><strong>E-mail</strong></label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              class="form-control"
-              placeholder="E-mail"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="messagearea"><strong>Message</strong></label>
-            <textarea
-              id="messagearea"
-              class="form-control"
-              placeholder="What's your motivation?"
-              rows="3"
-              required
-            >
-            </textarea>
-          </div>
-          <div class="row text-center form-button">
-            <div class="col">
-              <button type="submit" class="btn btn-success btn-lg">Send</button>
+      <div id="projectVolunteer" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content with a form inside-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Become a Volunteer</h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="" class="main-form py-3 px-2">
+                <div class="form-group">
+                  <label for="fullname"><strong>Full Name</strong></label>
+                  <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    class="form-control"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phonenumber"><strong>Phone number</strong></label>
+                  <input
+                    type="number"
+                    name="phonenumber"
+                    id="phonenumber"
+                    class="form-control"
+                    placeholder="Phone number"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email"><strong>E-mail</strong></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="messagearea"><strong>Message</strong></label>
+                  <textarea
+                    id="messagearea"
+                    class="form-control"
+                    placeholder="What is your motivation?"
+                    rows="3"
+                    required
+                  >
+                  </textarea>
+                </div>
+                <div class="row text-center form-button">
+                  <div class="col">
+                    <button type="submit" class="btn btn-success btn-lg">
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
-        </div>
-        </form>
-        <!---End form inside modal-->
       </div>
-     </div> 
-    </div>
-
+      <!--End form inside modal-->
       <!--End Modal for Volunteer button-->
-
     </main>
-    <!---End Main Content of the page-->
+    <!--End Main Content of the page-->
 
-    <!------Footer------->
+    <!--Footer-->
     <footer class="container-fluid">
       <div class="row text-center align-items-end">
         <div class="col-md-4">
-          <!----Social links list with Font Awesome icons-->
+          <!--Social links list with Font Awesome icons-->
           <ul class="list-inline social-links">
             <li class="list-inline-item">
               <a
                 href="https://www.facebook.com/RoadRunnerSociety/"
-                target="_blank"  rel="noopener"
+                target="_blank"
+                rel="noopener"
                 ><i class="fab fa-facebook" aria-hidden="true"></i
                 ><span class="sr-only">Facebook</span></a
               >
@@ -455,15 +481,16 @@
             <li class="list-inline-item">
               <a
                 href="https://www.instagram.com/summerhills.ro/?hl=ro"
-                target="_blank"  rel="noopener"
+                target="_blank"
+                rel="noopener"
                 ><i class="fab fa-instagram" aria-hidden="true"></i
                 ><span class="sr-only">Instagram</span></a
               >
             </li>
           </ul>
-          <!----End Social links-->
+          <!--End Social links-->
         </div>
-        <!----Contact details---->
+        <!--Contact details-->
         <div class="col-md-4  contact-custom">
           <p>salutdurusa@gmail.com</p>
         </div>
@@ -471,14 +498,14 @@
           <p>+40752547908</p>
         </div>
       </div>
-      <!----End Contact details----->
+      <!--End Contact details-->
       <div class="row text-center">
         <div class="col-12 contact-custom-copyright">
           <p>Copyright: Road Runner Society</p>
         </div>
       </div>
     </footer>
-    <!------End Footer------->
+    <!--End Footer-->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
