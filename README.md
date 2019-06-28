@@ -63,10 +63,10 @@ In this project I used:
 - [BootstrapCDN](https://getbootstrap.com)
 - [GoogleFonts](https://fonts.google.com)
 - [Fontawesome](https://fontawesome.com)
-- [Git](htpps://git-scm.com)
+- [Git](https://git-scm.com)
 - [VSCode](https://code.visualstudio.com)
 - [jQuery](https://jquery.com)
-- [popper.js](htpps://popper.js.org)
+- [popper.js](https://popper.js.org)
 
 Other tehnologies used:
 
@@ -78,3 +78,56 @@ The code was checked with both of the following validators
 
 - [W3CMarkupValidator](https://validator.w3.org)
 - [W3CJigsawCSSValidator](https://jigsaw.w3.org/css-validator/)
+
+## Deployment
+
+This site was developed using VScode, committed to git and pushed to GitHub with the built-in functionality in VScode. From there it was deployed to GitHub Pages from its GitHub repository.
+
+### To deploy this page to GitHub Pages from its GitHub repository the following steps were taken
+
+1. Logged into my GitHub account (<https://github.com/vladoprea).>
+2. Go to Repository tab.
+3. Click the repository called "road-runner-society"
+4. Go to the "Settings" tab at the top of the page and click it.
+5. Scroll down the "Settings" page to the "Github Pages" section.
+6. In the "Sources" subsection select "Master Branch" from the drop-down menu currently labelled none. This refreshes the page and publishes the project.
+7. Scroll down again to the GitHub pages to find a link to the deployed site.
+8. The website is published here: (<https://vladoprea.github.io/road-runner-society/)>
+
+### To run project locally
+
+To clone this project from GitHub:
+
+1. Follow this link to the Project GitHub repository
+2. Under the repository name, click "Clone or download"
+3. In the Clone with HTPPs section, copy the clone URL for the repository.
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone and then paste the URL you copied in Step 3.
+7. git clone (<https://github.com/USERNAME/REPOSITORY)>
+8. Press Enter. Your local clone will be created.
+
+## Credits
+
+### Media
+
+- all the photos were taken from the Road Runner Society facebook page and are under the association copyright
+- ARCA through Fazakas Miklos for the youtube video in the Summerhills page
+- Road Runner Society has the copyrights for the vimeo video in the Summerhills page
+- Texts from Home page and Summerhills page were taken from the (<https://summerhills.ro)> site which is property of Road Runner Society
+
+## Acknowledgements
+
+I have used many useful resources. Most importants are:
+
+- [StackOverflow](https://stackoverflow.com)
+- [W3Schools](htpps://w3schools.com)
+- [CodeInstitute](htpps://codeinstitute.net)
+- [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w)
+- [AnnaGreaves](https://www.youtube.com/watch?v=zDpCejbl1sU&feature=youtu.be)
+- [UXDesign](https://uxdesign.cc)
+
+I would like to thank :
+
+- Maranatha Ilesanmi my mentor who guide me through this project and provided punctual, solid and useful feedback.
+- [Slack](https://code-institute-room.slack.com/messages) comunity for providing solutions to every question I had.
