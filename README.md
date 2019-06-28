@@ -50,13 +50,31 @@ Contact button has a simple structure. It contains a screenshot for a map that s
 
 - an alert that opens a page with the latest informations regarding projects
 - a Shop page that will contain for sale items made by the members of the association. Money raised through this shop will support projects
-  -collecting information for the contact form inside contact page and modal
-  -interactive map
-  -posibility to switch into three other languages: romanian, german and french
+- collecting information for the contact form inside contact page and modal
+- interactive map
+- posibility to switch into three other languages: romanian, german and french
 
 ## Technologies used
 
 In this project I used:
 
--HTML (HyperText Markup Lanhuage)
--CSS (Cascading Style Sheets) -[BootstrapCDN](https://getbootstrap.com)
+- HTML (HyperText Markup Lanhuage)
+- CSS (Cascading Style Sheets)
+- [BootstrapCDN](https://getbootstrap.com)
+- [GoogleFonts](https://fonts.google.com)
+- [Fontawesome](https://fontawesome.com)
+- [Git](htpps://git-scm.com)
+- [VSCode](https://code.visualstudio.com)
+- [jQuery](https://jquery.com)
+- [popper.js](htpps://popper.js.org)
+
+Other tehnologies used:
+
+- [AdobeXD](https://www.adobe.com/ro/products/xd.html) for wireframes and mock-ups
+
+## Testing
+
+The code was checked with both of the following validators
+
+- [W3CMarkupValidator](https://validator.w3.org)
+- [W3CJigsawCSSValidator](https://jigsaw.w3.org/css-validator/)
