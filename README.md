@@ -24,6 +24,18 @@ The site has a simple and logic structure and it is easy to navigate. I planned 
 - As a company owner, I want to find out if our fields of interests are the same and to make a first contact
 - As a possible volunteer, I want to have a more general view of the association and a posibility to sign in for a volunteering session.
 
+#### Wireframes
+
+- [Mobile](https://ibb.co/album/dbdYLa)
+- [Ipad](https://ibb.co/album/n0SSfa)
+- [Desktop](https://ibb.co/album/bus4RF)
+
+#### Mock-ups
+
+- [Mobile](https://ibb.co/album/b38dmF)
+- [Ipad](https://ibb.co/album/fTYYLa)
+- [Desktop](https://ibb.co/album/iyLf0a)
+
 ## Features
 
 ### Existing features
@@ -121,8 +133,8 @@ To clone this project from GitHub:
 I have used many useful resources. Most importants are:
 
 - [StackOverflow](https://stackoverflow.com)
-- [W3Schools](htpps://w3schools.com)
-- [CodeInstitute](htpps://codeinstitute.net)
+- [W3Schools](https://w3schools.com)
+- [CodeInstitute](https://codeinstitute.net)
 - [Academind](https://www.youtube.com/channel/UCSJbGtTlrDami-tDGPUV9-w)
 - [AnnaGreaves](https://www.youtube.com/watch?v=zDpCejbl1sU&feature=youtu.be)
 - [UXDesign](https://uxdesign.cc)
