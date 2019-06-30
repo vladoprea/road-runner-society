@@ -3,6 +3,8 @@
 I choose to create a presentation site for an association that I started 10 years ago with some of my friends. Its main activity is based in a rural area in the North of Romania called Valea Chioarului in Maramures County.
 Road Runner Association has the mission to promote artistic and cultural experiment as a lifestyle and support sustainable and responsible development in the rural areas. Most of the association projects and actions focus on rural revival through educational, touristic and cultural events.
 
+The deployed site can be found here: <https://vladoprea.github.io/road-runner-society/>
+
 ## UX
 
 The site has a simple and logic structure and it is easy to navigate. I planned it more like a presentation site with a single call to action for the possibility of volunteering. Usually, people find out about Road Runner Society from other sources, even from friends or directly participating in one of the projects. That means that most of the users have a minimum knowledge about the association before entering the site.
@@ -103,16 +105,60 @@ The project was developed with the constant use of Chrome Developer Tools in ord
 
 1. Navbar
 
-   1. Visit home page from a bigger than medium device(md).
+   1. Visit Home page from a bigger than medium device(md).
    2. Hover over each navbar buttons to see of the effects work.
    3. Click on each button to check if they have functionality and if they are linked to the correct page.
    4. Using Chrome Developer, alter the screen to smaller than medium sizes to see if the navbar is responsive.
    5. Click on the toggler button to check if the dropdown menu activates.
    6. Hover on each button to see if the effects work.
    7. Click on each button to check if they have functionality and if they are linked to the correct page.
-   8. On all screen sizes, click on logo to ensure that it is linked to the Home page.
+   8. On all screen sizes, click on Logo image positioned on the left of the navbar to ensure that it is linked to the Home page.
 
-2.
+2. Footer
+
+   1. Visit Home page from a bigger than medium device(md).
+   2. Hover over each of the social buttons to see of the effects work.
+   3. Click on each of the social buttons to ensure that they open the correct social media account.
+   4. Using Chrome Developer, alter the screen to smaller than medium sizes to see if the navbar elements move on top of each other as intended.
+
+3. Home
+
+   1. Visit Home page from a bigger than medium device(md).
+   2. Repeat navbar and footer as described in step 1 and 2.
+   3. Scroll down the page to see if the images and text are displayed correctly. Check if the text inside the images is centered.
+   4. When in album section, click on forward and back arrows to ensure functionality.
+   5. Check responsivness in smaller than medium devices using Chrome Developer.
+
+4. Projects
+
+   1. Visit Projects page from a bigger than medium device(md).
+   2. Repeat navbar and footer as described in step 1 and 2.
+   3. Scroll down the page to see if the images, text, progress bar and buttons are displayed correctly. Check if the text inside the images is centered.
+   4. Click each "Volunteer" button to check if a modal appears.
+   5. Inside the modal there is a form. Check if the form is validating.
+   6. Check responsivness in smaller than medium devices using Chrome Developer.
+
+5. Summerhills
+
+   1. Visit Summerhills page from a bigger than medium device(md).
+   2. Repeat navbar and footer as described in step 1 and 2.
+   3. Scroll down the page to see if the image, text and videos are displayed correctly.
+   4. Click on videos to see if they work properly.
+   5. Check responsivness in smaller than medium devices using Chrome Developer.
+
+6. Contact
+
+   1. Visit Contact page from a bigger than medium device(md).
+   2. Repeat navbar and footer as described in step 1 and 2.
+   3. Check if the image of the map, contact details and form are displayed correctly.
+   4. Check if the form is validating.
+   5. Check responsivness in smaller than medium devices using Chrome Developer.
+
+7. Validation check for form in contact and modal
+
+   1. Fill all fields besides one and try to submit. Repeat this leaving empty every field, one by one, while completing the others. An error message should appear.
+   2. Try to enter an email adress without using "@" and then submit. An error message should appear.
+   3. Complete all the fields with the correct values and submit. The page should reload.
 
 ## Deployment
 
@@ -127,7 +173,7 @@ This site was developed using VScode, committed to git and pushed to GitHub with
 5. Scroll down the "Settings" page to the "Github Pages" section.
 6. In the "Sources" subsection select "Master Branch" from the drop-down menu currently labelled none. This refreshes the page and publishes the project.
 7. Scroll down again to the GitHub pages to find a link to the deployed site.
-8. The website is published here: (<https://vladoprea.github.io/road-runner-society/)>
+8. The website is published here: <https://vladoprea.github.io/road-runner-society/>
 
 ### To run project locally
 
@@ -139,7 +185,7 @@ To clone this project from GitHub:
 4. In your local IDE open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone and then paste the URL you copied in Step 3.
-7. git clone (<https://github.com/USERNAME/REPOSITORY)>
+7. git clone (<https://github.com/vladoprea/road-runner-society)>
 8. Press Enter. Your local clone will be created.
 
 ## Credits
