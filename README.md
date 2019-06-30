@@ -101,15 +101,15 @@ The project was developed with the constant use of Chrome Developer Tools in ord
 
 ### Manual testing on elements and functionality of each page
 
-1.Navbar
-i.Visit home page from a bigger than medium device(md).
-ii.Hover over each navbar buttons to see of the effects work.
-iii.Click on each button to check if they have functionality and if they are linked to the correct page.
-iv.Using Chrome Developer, alter the screen to smaller than medium sizes to see if the navbar is responsive.
-v.Click on the toggler button to check if the dropdown menu activates.
-vi.Hover on each button to see if the effects work.
-vii.Click on each button to check if they have functionality and if they are linked to the correct page.
-viii.On all screen sizes, click on logo to ensure that it is linked to the Home page.
+1. Navbar
+   i. Visit home page from a bigger than medium device(md).
+   ii. Hover over each navbar buttons to see of the effects work.
+   iii. Click on each button to check if they have functionality and if they are linked to the correct page.
+   iv. Using Chrome Developer, alter the screen to smaller than medium sizes to see if the navbar is responsive.
+   v. Click on the toggler button to check if the dropdown menu activates.
+   vi. Hover on each button to see if the effects work.
+   vii. Click on each button to check if they have functionality and if they are linked to the correct page.
+   viii. On all screen sizes, click on logo to ensure that it is linked to the Home page.
 
 2.
 
