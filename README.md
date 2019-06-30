@@ -5,7 +5,7 @@ Road Runner Association has the mission to promote artistic and cultural experim
 
 ## UX
 
-The site has a simple and logic structure and it is easy to navigate. I planned it more like a presentation site with a single call to action for the possibility of volunteering. It is targeted more for the people who have already a few informations about the association.
+The site has a simple and logic structure and it is easy to navigate. I planned it more like a presentation site with a single call to action for the possibility of volunteering. Usually, people find out about Road Runner Society from other sources, even from friends or directly participating in one of the projects. That means that most of the users have a minimum knowledge about the association before entering the site.
 
 ### Structure and Design objectives
 
@@ -19,10 +19,10 @@ The site has a simple and logic structure and it is easy to navigate. I planned 
 
 ### User Stories
 
-- As a new visitor, I want to easily navigate and find clear and simple written and visual information
-- As a participant at the festival, I want to find out more about the association activity
-- As a company owner, I want to find out if our fields of interests are the same and to make a first contact
-- As a possible volunteer, I want to have a more general view of the association and a posibility to sign in for a volunteering session.
+- As a new visitor, I want to easily navigate and to find clear and simple written information doubled with visual representation.
+- As a participant at the festival, I want to find out more about the association activity.
+- As a company owner, I want to find out if my company's fields of interests are the same with the ones of the association and to make a first contact in order to start a collaboration.
+- As a possible volunteer, I want to have a more general view of the association and a posibility to sign in for a volunteering session in one of their projects.
 
 #### Wireframes
 
@@ -90,6 +90,26 @@ The code was checked with both of the following validators
 
 - [W3CMarkupValidator](https://validator.w3.org)
 - [W3CJigsawCSSValidator](https://jigsaw.w3.org/css-validator/)
+
+The project was developed with the constant use of Chrome Developer Tools in order to ensure responsivness on all devices. The site functionality was contantly checked in the following browsers:
+
+- Chrome
+- Mozzila Firefox
+- Opera
+- Safari
+- Internet Explorer 11
+
+### Manual testing on elements and functionality of each page
+
+1. Navbar
+   i. Visit home page from a bigger than medium device(md).
+   ii. Hover over each navbar buttons to see of the effects work.
+   iii. Click on each button to check if they have functionality and if they are linked to the correct page.
+   iv. Using Chrome Developer, alter the screen to smaller than medium sizes to see if the navbar is responsive.
+   v. Click on the toggler button to check if the dropdown menu activates.
+   vi. Hover on each button to see if the effects work.
+   vii. Click on each button to check if they have functionality and if they are linked to the correct page.
+   viii. On all screen sizes, click on logo to ensure that it is linked to the Home page.
 
 ## Deployment
 
